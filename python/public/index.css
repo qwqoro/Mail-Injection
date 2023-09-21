@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #fefafa;
+}
+
+.logo, .contact, .link {
+  margin: 32px auto;
+  width: 32%;
+  display: block;
+}
+
+#email, #password {
+  width: 100%;
+  margin: 4px 0 16px 0;
+  resize: none;
+  padding: 4px;
+}
+
+.submit {
+  margin: 16px;
+  padding: 4px 64px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+header, footer {
+  text-align: center;
+}
+
+hr {
+  opacity: 50%;
+  border: 1px dashed #000000;
+}
+
+a {
+  text-decoration: none;
+}
