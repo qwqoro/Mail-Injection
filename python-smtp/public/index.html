@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HaHacking - Регистрация</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <header>
+    <div class="logo">
+      <h1>[HaHacking] E-mailI&ensp;&#128231;</h1>
+    </div>
+  </header>
+  <body>
+    <div class="contact">
+      <h2 class="title">Регистрация в системе</h2>
+      <form action="signup" method="post">
+        <p>{{ result }}</p>
+        <label for="email">Адрес электронной почты:</label><br/>
+        <input type="email" id="email" name="email" placeholder="you@hahacking.local"/><br/>
+        <label for="password">Пароль:</label><br/>
+        <input type="password" id="password" name="password" minlength="10"></textarea><br/>
+        <button class="submit">Отправить&ensp;→</button>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div class="link">
+      <hr/>
+      <p><a href="https://t.me/hahacking">@HaHacking</a> &copy; 2023</p>
+    </div>
+  </footer>
+</html>

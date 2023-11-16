@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HaHacking - Почта</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <header>
+    <div class="logo">
+      <h1>[HaHacking] E-mailI&ensp;&#128231;</h1>
+    </div>
+  </header>
+  <body>
+    <div class="messages">
+      <h2 class="title">Ваши письма</h2>
+      <table border=1>
+      {% for message in messages %}
+        <tr>
+          <td>{{ message }}</td>
+          <td>{{ messages[message] }}</td>
+        </tr>
+      {% endfor %}
+      </table>
+      <form action="logout" method="post">
+        <button class="submit">Выйти</button>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div class="link">
+      <hr/>
+      <p><a href="https://t.me/hahacking">@HaHacking</a> &copy; 2023</p>
+    </div>
+  </footer>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HaHacking - Регистрация</title>
+    <title>HaHacking - Вход</title>
     <link rel="stylesheet" href="index.css">
   </head>
   <header>
@@ -11,13 +11,13 @@
   </header>
   <body>
     <div class="contact">
-      <h2 class="title">Регистрация в системе</h2>
-      <form action="signup" method="post">
+      <h2 class="title">Войти в систему</h2>
+      <form action="signin" method="post">
         <p>{{ result }}</p>
-        <label for="name">Адрес электронной почты:</label><br/>
-        <input type="email" id="email" name="email" placeholder="you@hahacking.local"/><br/>
+        <label for="username">Имя пользователя:</label><br/>
+        <input id="username" name="username"><br/>
         <label for="password">Пароль:</label><br/>
-        <input type="password" id="password" name="password" minlength="10"></textarea><br/>
+        <input type="password" id="password" name="password"></textarea><br/>
         <button class="submit">Отправить&ensp;→</button>
       </form>
     </div>
