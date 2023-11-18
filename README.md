@@ -1,6 +1,7 @@
 ![gif](images/gif.gif)
 
 <p align="center">
+        <code> [ Have a look at the article: <a href="HaHacking_Mail-Injection.pdf"><code>HaHacking_Mail-Injection.pdf</code></a> / <a href="https://habr.com/ru/articles/774258/">Habr</a> / <a href="https://blog.deteact.com/ru/e-mail-injection/">DeteAct Blog</a> ] </code><br><br>
   	<b>
 		<a href="#-overview">Overview</a> | 
 		<a href="#%EF%B8%8F-usage">Usage</a> | 
